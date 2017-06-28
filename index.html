@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Hangman</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+   <div class="topTitle">  <!--this is the header class-->
+    
+    <p class="star">Star Wars Hangman</p>
+    <h1>Star Wars Hangman</h1>
+   </div>
+   
+   <div class="leftFrame"> <!--left frame that was going to contain animation. put tranlator in as place holder-->
+   	
+   	<p class="artoo"> Basic to Aurebesh: <input type="text" id="c3p0" onkeyup="tranlator()"></p>
+	 <p class="artoo">Aurebesh: <span> <p id="star"></p> </span></p>
+   
+   </div>
+  
+
+  <div class="rightFrame">
+   <div class="rightTop">  <!--  Will contain start prompt -->	
+    <h3>Push any letter to start!</h3>
+   </div>
+
+   <div class="rightMid"> <!--- Will contain gameplay area-->
+    <h2>Game</h2>
+    <p>Number of Wins: <span id="winCount"></span></p>
+    <p>Number of Letters: <span id="numLength"></span></p>
+    <p id ="numBlanks"></p>
+   </div>
+
+   <div class="rightBott" id="rightBott"> <!-- Will contain Number of guesses and letters used-->
+    <h3>Number of guesses: <span id="guessCount"></span></h3>
+    
+    <h3>Letters Used</h3><br>
+    <p id="usedLetter"></p>
+   </div>
+  </div> <!--end of rightFrame div-->
+
+  </div>  <!--End of container class-->
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

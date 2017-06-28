@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Aurek-Besh;
+    src: url(../Aurek-Besh.ttf);
+}
+
+
+body {
+	background-image: url(../images/starwars.jpg);
+	/*font-family: Aurek-Besh;*/
+}
+
+h2  {
+	font-family: Aurek-Besh;
+}
+
+#demo{
+	font-family: Aurek-Besh;
+}
+
+.star {
+	font-family: Aurek-Besh;
+	font-size: 18px;
+}
+
+#star {
+	font-family: Aurek-Besh;
+	font-size: 18px;
+	color: white;
+}
+
+.artoo{
+	font-size: 20px;
+	color: white;
+	width: 100%;
+}
+
+.container {
+ 	width: 960px;
+ 	margin: 0 auto; 
+	overflow: hidden;
+}
+
+.topTitle {
+	width: 94%;
+	text-align: center;
+	color: white;
+}
+
+.leftFrame {
+	width:50%;
+	float: left;
+	display: inline-block;
+	/*background-color: white;*/
+	color: white;
+}
+
+.rightFrame {
+	width: 50%;
+	float: right;
+	display: inline-block;
+	/*background-color: white;*/
+	color: white;
+}
+
+.rightTop {
+	width: 80%;
+	display: inline-block;
+	/*background-color: white;*/
+	color: white;
+}
