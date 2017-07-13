@@ -11,19 +11,24 @@ body {
 
 h2  {
 	font-family: Aurek-Besh;
+	src: url(assets/Aurek-Besh.ttf);
+
 }
 
 #demo{
 	font-family: Aurek-Besh;
+	src: url(assets/Aurek-Besh.ttf);
 }
 
 .star {
 	font-family: Aurek-Besh;
+	src: url(assets/Aurek-Besh.ttf);
 	font-size: 18px;
 }
 
 #star {
 	font-family: Aurek-Besh;
+	src: url(assets/Aurek-Besh.ttf);
 	font-size: 18px;
 	color: white;
 }
