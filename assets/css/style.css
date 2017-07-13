@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Aurek-Besh;
-    src: url('../Aurek-Besh.ttf') format('opentype');
+    font-family: Aurebesh;
+    src: url("../Aurebesh.otf") format("opentype");
 }
 
 
@@ -10,22 +10,22 @@ body {
 }
 
 h2  {
-	font-family: Aurek-Besh;
+	font-family: Aurebesh;
 
 }
 
 #demo{
-	font-family: Aurek-Besh;
+	font-family: Aurebesh;
 	
 }
 
 .star {
-	font-family: Aurek-Besh;
+	font-family: Aurebesh;
 	font-size: 18px;
 }
 
 #star {
-	font-family: Aurek-Besh;
+	font-family: Aurebesh;
 	font-size: 18px;
 	color: white;
 }
